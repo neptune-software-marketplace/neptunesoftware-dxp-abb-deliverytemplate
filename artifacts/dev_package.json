@@ -1,0 +1,47 @@
+{
+	"id": "7C696D07-D60C-ED11-B47A-000D3AB2359F",
+	"createdAt": "2022-07-26T11:28:11.590Z",
+	"createdBy": "kristin.eliassen@neptune-software.com",
+	"git": {
+		"targetServers": [],
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-deliverytemplate",
+		"testServers": []
+	},
+	"name": "neptunesoftware-dxp-abb-deliverytemplate",
+	"description": null,
+	"ver": "22.7.26.1129",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "04CAB400-BA0E-4914-81D6-DD8FBD2C11AA",
+			"ver": "22.7.26.1328",
+			"application": "neptune_deliveries",
+			"title": "Neptune Deliveries Application",
+			"description": ""
+		}
+	],
+	"api": [],
+	"odataMock": [],
+	"odataSource": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"wf_definition": [],
+	"department": [],
+	"script_scheduler": [],
+	"connector": []
+}
