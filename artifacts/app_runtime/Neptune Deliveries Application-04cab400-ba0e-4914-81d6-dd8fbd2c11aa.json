@@ -1,9 +1,7 @@
 {
 	"id": "04cab400-ba0e-4914-81d6-dd8fbd2c11aa",
 	"createdAt": "2022-02-04T15:48:08.986Z",
-	"updatedAt": "2022-07-26T11:28:49.746Z",
 	"createdBy": "luuk.wosten@neptune-software.com",
-	"changedBy": "kristin.eliassen@neptune-software.com",
 	"objects": [
 		{
 			"fieldNo": "fd700904-4024-4134-fe42-4cf928c10c32",
@@ -4834,6 +4832,7 @@
 			"data": []
 		}
 	],
+	"componentInterface": [],
 	"ver": "22.7.26.1328",
 	"application": "neptune_deliveries",
 	"title": "Neptune Deliveries Application",
@@ -4846,7 +4845,7 @@
 	"disabled": false,
 	"loadLaunchpadCode": null,
 	"loadApplicationCode": null,
-	"appType": "",
+	"appType": "A",
 	"ui5_m": true,
 	"ui5_f": true,
 	"ui5_table": false,
@@ -4856,6 +4855,7 @@
 	"ui5_theme": "sap_fiori_3",
 	"ui5_version": "",
 	"ui5_language": null,
+	"ui5_url": null,
 	"cus_theme": "",
 	"css": [
 		"==OBJECT STRING==",
@@ -4895,5 +4895,9 @@
 	"libHighmap": false,
 	"publicAccess": false,
 	"ui5_bootstrap": false,
-	"apis": []
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [],
+	"package": "7c696d07-d60c-ed11-b47a-000d3ab2359f"
 }
