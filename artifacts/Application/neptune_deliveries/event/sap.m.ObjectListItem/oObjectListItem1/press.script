@@ -16,6 +16,6 @@ lblSS.setText("00");
 btnReset.setEnabled(false);
 btnSaveItem.setEnabled(false);
 btnStop.setEnabled(false);
-btnStart.setEnabled(!data.enabled);
+btnStart.setEnabled(data.enabled);
 
 initTimer(data);
