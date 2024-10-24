@@ -5,34 +5,7 @@
 	"git": {
 		"targetServers": [],
 		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-deliverytemplate",
-		"testServers": [],
-		"packageJSON": [
-			"==OBJECT STRING==",
-			"{",
-			"  \"name\": \"neptunesoftware-dxp-abb-deliverytemplate\",",
-			"  \"version\": \"1.0.0\",",
-			"  \"description\": \"neptunesoftware-dxp-abb-deliverytemplate\",",
-			"  \"author\": \"Neptune Software\",",
-			"  \"license\": \"LicenseRef-LICENSE\",",
-			"  \"private\": true,",
-			"  \"scripts\": {",
-			"    \"deploy\": \"ts-node src/deploy.ts\",",
-			"    \"test\": \"jest --passWithNoTests\"",
-			"  },",
-			"  \"engines\": {",
-			"    \"node\": \"14.16.0\"",
-			"  },",
-			"  \"devDependencies\": {",
-			"    \"@types/jest\": \"^26.0.23\",",
-			"    \"typescript\": \"^4.2.3\",",
-			"    \"ts-node\": \"^10.0.0\",",
-			"    \"axios\": \"^0.21.1\",",
-			"    \"jest\": \"^27.0.4\",",
-			"    \"ts-jest\": \"^27.0.3\"",
-			"  }",
-			"}",
-			""
-		]
+		"testServers": []
 	},
 	"name": "neptunesoftware-dxp-abb-deliverytemplate",
 	"description": null,
@@ -43,7 +16,10 @@
 			"id": "04cab400-ba0e-4914-81d6-dd8fbd2c11aa",
 			"application": "neptune_deliveries",
 			"title": "Neptune Deliveries Application",
-			"description": ""
+			"description": "",
+			"package": {
+				"id": "7c696d07-d60c-ed11-b47a-000d3ab2359f"
+			}
 		}
 	],
 	"api": [],
@@ -70,5 +46,8 @@
 	"script_scheduler": [],
 	"wf_definition": [],
 	"connector": [],
-	"events": []
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
 }
